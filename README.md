@@ -19,6 +19,5 @@ This file includes a simple improvement to the original middleware. It introduce
 The primary focus of testing in these files is whether the middleware can handle valid and invalid JSON gracefully. Tests have been designed to check the behavior of the middleware in scenarios where the JSON is valid or invalid.
 
 - `log_requests_middleware_spec.rb`: Includes tests for the default middleware to ensure it behaves correctly with valid JSON and raises errors with invalid JSON.
-- `log_requests_middleware_improvements_spec.rb`: Includes tests for the improved middleware to verify that it handles both valid and invalid JSON gracefully without raising exceptions.
 
 Run the tests to ensure that the middleware behaves as expected in different scenarios.
