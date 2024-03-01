@@ -1,5 +1,3 @@
-# Coderbye_alphaeon
-
 # Log Requests Middleware
 
 This project includes two Ruby files related to a middleware component for logging requests and responses.
