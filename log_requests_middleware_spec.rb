@@ -1,6 +1,6 @@
 require 'rack'
 require 'json'
-require_relative 'log_requests_middleware'  # Replace with the actual file path
+require_relative 'log_requests_middleware'  # Replace with new file path if testing improvements
 
 describe LogRequestsMiddleware do
   let(:app_response) { [200, { 'Content-Type' => 'application/json' }, ['{"response_key": "response_value"}']] }
